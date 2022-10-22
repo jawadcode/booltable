@@ -1,3 +1,3 @@
 # booltable
 
-Truth table generator for boolean algebraic equations
+Truth table generator for basic boolean algebraic equations
