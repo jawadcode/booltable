@@ -10,16 +10,19 @@ use logos::{Logos, SpannedIter};
 pub enum TK {
     #[token("NOT")]
     #[token("!")]
+    #[token("¬")]
     #[display(fmt = "NOT")]
     Not,
 
     #[token("AND")]
     #[token(".")]
+    #[token("∧")]
     #[display(fmt = "AND")]
     And,
 
     #[token("OR")]
     #[token("+")]
+    #[token("∨")]
     #[display(fmt = "OR")]
     Or,
 
